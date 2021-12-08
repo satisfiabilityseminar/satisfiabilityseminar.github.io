@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <h2 style="text-align:center">Online SAT Seminar</h2>
 This seminar series came out of the Simons Institute program [Satisfiability: Theory, Practice, and Beyond](https://simons.berkeley.edu/programs/sat2021){:target="_blank"}. Everybody interested in Satisfiability and related areas is welcome.
 
@@ -6,20 +10,22 @@ Join our [group](https://groups.google.com/forum/#!forum/ml_logic_seminar/join){
 
 <h2 style="text-align:center">Upcoming Talks</h2>
 <div style="overflow-x:auto;">
-  <table id="upcoming">
-    <tr>
-      <th>Date</th>
-      <th>Author Name</th>
-      <th>Author Affiliation</th>
-      <th>Talk Title/Slides</th>
-      <th>More Info</th>
-    </tr> 
-    <tr>
-      <td>Monday, December 13th, 2021 @ 1PM EST</td>
-      <td><strong><a href="https://www.shyanakmal.com/" target="_blank">Shyan Akmal</a></strong></td>
-      <td><a href="https://web.mit.edu/" target="_blank">Massachusetts Institute of Technology</a></td>
-      <td><strong>Majority-3SAT (and Related Problems) in Polynomial Time</strong></td>
-      <td><a href="https://ml-logic-seminar.github.io/upcoming.html#shyan">Link</a></td>
-    </tr>
-  </table>
+    <table id="upcoming">
+        <tr>
+            <th>Date</th>
+            <th>Author Name</th>
+            <th>Author Affiliation</th>
+            <th>Talk Title/Slides</th>
+            <th>More Info</th>
+        </tr>
+        {% for item in site.data.upcoming %}
+        <tr>
+            <td>{{ item.date }}</td>
+            <td><strong><a href="{{ item.author-link }}" target="_blank">{{ item.author }}</a></strong></td>
+            <td><a href="{{ item.affiliation-link }}" target="_blank">{{ item.affiliation }}</a></td>
+            <td><strong>{{ item.title }}</strong></td>
+            <td><a href="{{ site.base-url }}/upcoming.html#{{ item.author }}">Link</a></td>
+        </tr>
+        {% endfor %}
+    </table>
 </div>
