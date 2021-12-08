@@ -24,7 +24,7 @@ Join our [group](https://groups.google.com/forum/#!forum/ml_logic_seminar/join){
             <td><strong><a href="{{ item.author-link }}" target="_blank">{{ item.author }}</a></strong></td>
             <td><a href="{{ item.affiliation-link }}" target="_blank">{{ item.affiliation }}</a></td>
             <td><strong>{{ item.title }}</strong></td>
-            <td><a href="{{ site.base-url }}/upcoming.html#{{ item.author }}">Link</a></td>
+            <td><a href="{{ site.baseurl }}/upcoming.html#{{ item.author }}">Link</a></td>
         </tr>
         {% endfor %}
     </table>
