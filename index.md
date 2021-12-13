@@ -2,14 +2,17 @@
 layout: default
 ---
 
-<h2 style="text-align:center">Online SAT Seminar</h2>
+## Online SAT Seminar
 This seminar series came out of the Simons Institute program titled "[Satisfiability: Theory, Practice, and Beyond](https://simons.berkeley.edu/programs/sat2021){:target="_blank"}" held at the University of California, Berkeley, USA from Jan-May, 2021.
 Everybody interested in Satisfiability and related areas is welcome.
 
-<!-- <h2 style="text-align:center">Join Our Group</h2>
-Join our [group](https://groups.google.com/forum/#!forum/ml_logic_seminar/join){:target="_blank"} in order to be notified about upcoming talks. [Subscribe](https://calendar.google.com/calendar/u/1?cid=aTVqMmp2bDZkcnM1bzNpcmg3cGYwa2FyNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ){:target="_blank"} in order to add upcoming talks to your calendar. -->
+## Join Our Group
+[Join our group](https://groups.google.com/forum/#!forum/satisfiabilityseminar/join){:target="_blank"} in order to be notified about upcoming talks.
 
-<h2 style="text-align:center">Upcoming Talks</h2>
+<!-- [Subscribe](https://calendar.google.com/calendar/u/1?cid=aTVqMmp2bDZkcnM1bzNpcmg3cGYwa2FyNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ){:target="_blank"} in order to add upcoming talks to your calendar. -->
+
+## Upcoming Talks
+{% if site.data.upcoming %}
 <div style="overflow-x:auto;">
     <table id="upcoming">
         <tr>
@@ -54,3 +57,6 @@ Join our [group](https://groups.google.com/forum/#!forum/ml_logic_seminar/join){
         {%- endfor -%}
     </table>
 </div>
+{%- else -%}
+There are no currently scheduled upcoming talks.
+{%- endif -%}
