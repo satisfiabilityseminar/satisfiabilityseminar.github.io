@@ -51,7 +51,7 @@ Everybody interested in Satisfiability and related areas is welcome.
                         {{ affiliations | split: "<!-- DELIMITER -->" | uniq | join: ", " }}
                     </td>
                     <td><strong>{{ talk.title }}</strong></td>
-                    <td><a href="{{ site.baseurl }}/upcoming.html#{{ item.talk-id }}">Link</a></td>
+                    <td><a href="{{ site.baseurl }}/upcoming#{{ item.talk-id }}">Link</a></td>
                 </tr>
             {%- endfor -%}
         {%- endfor -%}
