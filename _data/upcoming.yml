@@ -1,0 +1,17 @@
+- talk-id: ralf
+  authors:
+  - name: Ralf Rothenberger
+    link: https://hpi.de/friedrich/people/ralf-rothenberger.html
+    img: /assets/img/ralf.jpeg
+    affiliations:
+    - name: Hasso Plattner Institute
+      link: https://hpi.de/
+    - name: University of Potsdam
+      link: https://www.uni-potsdam.de/en/university-of-potsdam
+    bio: |
+      Ralf Rothenberger is a PhD student studying computer science at the Hasso Plattner Institute in Potsdam, Germany, advised by Tobias Friedrich. He is researching random SAT and phase transitions. His interests also extend to proof complexity and connections to complex network models.
+  talks:
+  - title: The Impact of Heterogeneity and Geometry on the Proof Complexity of Random Satisfiability
+    date: Monday, January 17th, 2022 @ 1PM EST
+    abstract: |
+      This disparity between theory and practice for SAT is believed to be a result of inherent properties of industrial SAT instances that make them tractable. Two characteristic properties seem to be prevalent in the majority of real-world SAT instances, heterogeneous degree distribution and locality. To understand the impact of these two properties on SAT, we study the proof complexity of random k-SAT models that allow to control heterogeneity and locality. Our findings show that heterogeneity alone does not make SAT easy as heterogeneous random k-SAT instances have superpolynomial resolution size. This implies intractability of these instances for modern SAT-solvers. On the other hand, modeling locality with an underlying geometry leads to small unsatisfiable subformulas, which can be found within polynomial time. A key ingredient for the result on geometric random k-SAT can be found in the complexity of higher-order Voronoi diagrams. As an additional technical contribution, we show an upper bound on the number of non-empty Voronoi regions, that holds for points with random positions in a very general setting. In particular, it covers arbitrary p-norms, higher dimensions, and weights affecting the area of influence of each point multiplicatively. Our bound is linear in the total weight. This is in stark contrast to quadratic lower bounds for the worst case.

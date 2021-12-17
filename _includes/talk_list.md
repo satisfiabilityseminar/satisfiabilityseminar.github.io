@@ -28,7 +28,7 @@
             {%- for talk in item.talks -%}
                 {%- if talk.video -%}
                     <iframe width="100%" src="{{ talk.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <br>
+                    <br>
                 {%- endif -%}
                 <strong> Date: </strong> {{ talk.date }} <br>
                 <strong> Talk Title: </strong> {{ talk.title }} <br>
