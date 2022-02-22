@@ -30,6 +30,10 @@
                     <iframe width="100%" src="{{ talk.video }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <br>
                 {%- endif -%}
+                {%- if talk.slides -%}
+                    <a href="{{ talk.slides }}" target="_blank">[slides]</a>
+                    <br>
+                {%- endif -%}
                 <strong> Date: </strong> {{ talk.date }} <br>
                 <strong> Talk Title: </strong> {{ talk.title }} <br>
                 {%- if talk.abstract -%} <strong> Abstract: </strong> {{ talk.abstract }} <br> {%- endif -%}
