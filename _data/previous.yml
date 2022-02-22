@@ -1,3 +1,20 @@
+- talk-id: noah
+  authors:
+  - name: Noah Fleming
+    link: https://www.cs.toronto.edu/~noahfleming/
+    img: /assets/img/noah.jpg
+    affiliations:
+    - name: University of California, San Diego
+      link: https://ucsd.edu/
+    bio: |
+      Noah Fleming is a postdoctoral researcher at the University of California, San Diego. He received his PhD from the University of Toronto under the supervision of Toniann Pitassi. His research interests lie in the area of computational complexity with a particular focus on proof complexity and applications to algorithm design and analysis, circuit complexity, communication complexity, and property testing.
+  talks:
+  - title: Extremely Deep Proofs
+    date: Monday, February 21st, 2022 @ 1PM EST
+    slides: /assets/slides/Extremely_Deep_SAT.pdf
+    abstract: |
+      Recently, a number of works have observed an exceptionally strong type of tradeoff — known as a supercritical tradeoff — between resources in proof complexity, in which one parameter is pushed beyond worst-case when another is restricted. In this talk, I will describe how to obtain the first supercritical tradeoff (for resolution, k-DNF resolution, and Cutting Planes) between two natural parameters of proofs: size and depth. For the resolution proof system, size lower bounds show limitations of the runtime of modern CDCL solvers, while bounds on the depth imply that CDCL solvers are inherently sequential on these instances. Thus, this result can be seen as a very strong tradeoff between runtime and parallelizability. In describing how to prove this result, I will also sketch a simplified proof of a supercritical depth/width tradeoff due to Razborov. 
+      (Joint work with Robert Robere and Toniann Pitassi.)
 - talk-id: ralf
   authors:
   - name: Ralf Rothenberger
