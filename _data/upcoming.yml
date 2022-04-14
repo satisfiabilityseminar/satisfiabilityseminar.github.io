@@ -1,0 +1,15 @@
+- talk-id: adam
+  authors:
+  - name: Adam Zsolt Wagner
+    link: http://www.math.tau.ac.il/~adamwagner/index.html
+    img: /assets/img/adam.jpg
+    affiliations:
+    - name: Tel Aviv University
+      link: https://en-exact-sciences.tau.ac.il/math
+    bio: |
+      I am a mathematician, working in graph theory / combinatorics. I did my Bachelor's and Master's studies at the University of Cambridge under the mentorship of Andras Zsak and Imre Leader. Until June 2018 I was a PhD student at the University of Illinois at Urbana-Champaign, where my advisor was Jozsef Balogh. I did a postdoc at ETH Zurich with Benny Sudakov, and currently I am a postdoc at Tel Aviv University. 
+  talks:
+  - title: A simple RL setup to find counterexamples to open conjectures in mathematics
+    date: Monday, May 2nd, 2022 @ 1PM EST
+    abstract: |
+      In this talk we will leverage a reinforcement learning method, specifically the cross-entropy method, to search for counterexamples to several conjectures in graph theory and combinatorics. We will present a very simplistic setup, in which only minimal changes need to be made (namely the reward function used for RL) in order to successfully attack a wide variety of problems. As a result we will resolve several open problems, and find more elegant counterexamples to previously disproved ones.
